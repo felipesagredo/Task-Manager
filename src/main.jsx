@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 const DATA = [
-  { id: "todo-0", name: "Estudiar Materia Cálculo II", completed: true }
+  { id: "todo-0", name: "Puedes editar esto, Debe estar en la Rama Video-Task de Git", completed: true }
 ];
 
 ReactDOM.createRoot(document.getElementById('root')).render(
