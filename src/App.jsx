@@ -95,7 +95,7 @@ function App(props) {
 
   return (
     <div className="todoapp stack-large">
-      <h1>Guarda Tareas / Task Manager</h1>
+      <h1>Todo App / Task Manager</h1>
       <Form agregarTarea={addTask}/>
       <div className="filters btn-group stack-exception">
         {filterList}

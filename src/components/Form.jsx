@@ -15,11 +15,6 @@ function Form(props) {
     
     return (
     <form onSubmit={handleSubmit}>
-        <h2 className="label-wrapper">
-        <label htmlFor="new-todo-input" className="label__lg">
-            Lista tus objetivos
-        </label>
-        </h2>
         <input
             type="text"
             id="new-todo-input"
